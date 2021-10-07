@@ -1,3 +1,8 @@
+body {
+    background: url(../img/html-color-codes-color-tutorials-hero.jpg);
+    background-size: auto;
+}
+
 h1, h2{
     font-family: 'Gemunu Libre', sans-serif;
     color: coral;
