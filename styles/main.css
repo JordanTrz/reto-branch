@@ -1,16 +1,43 @@
-h1 {
+h1, h2{
     font-family: 'Gemunu Libre', sans-serif;
     color: coral;
     display: flex;
     justify-content: center;
 }
 
+
 h3 {
     font-family: 'Gemunu Libre', sans-serif;
     color: darkblue;
 }
 
+p {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.configuracion1 {
+    background-color: darkturquoise;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.configuracion2 {
+    background-color:rgb(123, 93, 34);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.configuracion3 {
+    background-color:rgb(68, 194, 68);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
 .lista1 {
+    list-style: none;
     font-family: 'Bebas Neue', cursive;
     background: url(../img/450_1000.jpg);
     width: 450px;
@@ -18,5 +45,6 @@ h3 {
     border-radius: 10px;
     margin: auto;
     /* display: inline; */
+    padding: 10px;
 }
 

@@ -18,15 +18,43 @@
 		<h2>Clase sobre GIT y GITHUB</p>
 	</header>
 	<body>
-		<h3>Git init</h3>
-		<p>	Se inicializa el git local de la carpeta donde nos encontramos</p>
+		<div class="configuracion1">
+			<h3>Git init</h3>
+			<p>	Se inicializa el git local de la carpeta donde nos encontramos</p>
+				
+			<h3>git config --global user.email "email" </h3>
+			<p>Es para agregar el email a git</p>
+			<h3> git config --global user.name "nombre"</h3>
+			<p>Para colocar nombre</p>
+			<h3>git config --global core.editor vim </h3>
+			<p> Esto es paradefinir como editor predeterminado al vim </p>
+		</div><br>
+		<div class="configuracion2">
+			<h3>git add .</h3>
+			<p>	pone en tracking los archivos que se tienen en el directory </p>
+			<h3> git commit -m "comentario" </h3>
+			<p>Guarda los archivos que se hicieron tracking </p>
+
+			<h3>git push origin main </h3>
+			<p> Hace el push del repositorio local al repo remoto (una vez creado el url en github) </p>
+		</div> <br>
+		<div class="configuracion3">
+			<h3>git checkout -b </h3>
+			<p>	se utiliza un nuevo branch:
 			
-		<h3>git config --global user.email "email" </h3>
-		<p>Es para agregar el email a git</p>
-		<h3> git config --global user.name "nombre"</h3>
-		<p>Para colocar nombre</p>
-		<h3>git config --global core.editor vim </h3>
-		<p> Esto es paradefinir como editor predeterminado al vim </p>
+			git checkout -b "nombre rama"
+			
+			con esa línea de código lo que se hace es crear la nueva rama y ponerla como principal para que se guarde todo ahí </p>
+			
+			<h3> git branch "nombre" </h3>
+			<p>	 Si se quiere crear una rama pero sin ponerla como principal </p>
+			
+			<h3> git branch -a </h3>
+			<p> Esto se utiliza para visualizar las ramas que se tienen de forma local y remota. </p>
+
+		</div><br>
+
+
 		<ul class="lista1">
 			<li>
 				<a href="./contacto.html">Contacto</a>
